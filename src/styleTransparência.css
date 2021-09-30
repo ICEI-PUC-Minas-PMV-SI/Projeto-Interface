@@ -1,0 +1,110 @@
+@charset "UTF8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo-principal {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url(imagens/transparencia_header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+main {
+    background-color: #f5dff4;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.anos {
+    text-align: center;
+}
+
+div > a {
+    color:white;
+    margin: 40px 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #7F68AE;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+div hr {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+h1 {
+    margin-bottom: 30px;
+}
+div img {
+    width: calc(50% - 16px);
+    margin: 20px;
+    margin-left: 30px;
+    border: solid 1px black;
+}
+
+.conteudo {
+    padding: 2%;
+    float: left;
+    width: 75%;
+    text-align: center;
+}
+
+.conteudo > p{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.fotinha {
+    margin: 0% 15%;
+    width: 100%;
+}
+.conteudo > a{
+    margin: opx;
+    border-radius: 0px;
+    padding: 0px;
+    background-color:#f5dff4;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+aside {
+    margin:40px auto;
+    padding: 0px;
+}
+aside h3 {
+    padding-bottom: 10px;
+}
+p.ecles {
+    padding: 0px;
+}
+@media (max-device-width: 600px) {
+    .anos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "anos anos" "anos anos";
+    }
+    
+    .fotinha {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "fotinha fotinha" "fotinha fotinha";
+        margin: 0px 10%; 
+    }
+}
+div.anos>a:hover {
+    background-color: #df3d7e;
+}
